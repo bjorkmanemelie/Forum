@@ -1,0 +1,52 @@
+
+.thread-page {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+  background-color: #4caf50;
+  color: #f4f4f4;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+}
+
+.thread-container {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.thread-container h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.thread-content {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.thread-date {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.thread-page h2 {
+  margin: 20px 0 15px;
+  color: #333;
+}

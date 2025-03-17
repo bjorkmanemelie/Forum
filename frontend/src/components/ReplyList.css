@@ -1,0 +1,26 @@
+
+.reply-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.reply-item {
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.reply-content {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.reply-date {
+  color: #888;
+  font-size: 0.8rem;
+  text-align: right;
+}

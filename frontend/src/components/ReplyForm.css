@@ -1,0 +1,40 @@
+
+.reply-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.reply-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.reply-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.reply-form textarea:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+.reply-form .form-error {
+  color: #ff0033;
+  background-color: #ffe6e6;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.reply-form .btn-submit {
+  align-self: flex-start;
+}

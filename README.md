@@ -21,27 +21,26 @@ En enkel forumapplikation där användare kan skapa diskussionstrådar och svara
 1. Klona detta repository
 2. Installera backend-beroenden:
 
-d backend
-npm install
-Copy3. Installera frontend-beroenden:
-cd frontend
-npm install
-Copy
+        cd backend
+        npm install
+
+3. Installera frontend-beroenden:
+        cd frontend
+        npm install
+
 
 ## Starta applikationen
 
 ### Starta backend-servern
 
-cd backend
-npm start
-Copy
+    cd backend
+    npm start
 Backend-servern kommer att köras på http://localhost:3000
 
 ### Starta frontend-utvecklingsservern
 
-cd frontend
-npm run dev
-Copy
+    cd frontend
+    npm run dev
 Frontend-servern kommer att köras på http://localhost:5173
 
 ## Teknologier

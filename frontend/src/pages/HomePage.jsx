@@ -1,4 +1,3 @@
-
 import React, { useContext, useEffect } from "react";
 import { ThreadContext } from "../context/ThreadContext";
 import ThreadList from "../components/ThreadList";

@@ -1,4 +1,3 @@
-//Importerar filerna och kopplar dom med varandra
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { ThreadContext } from "../context/ThreadContext";

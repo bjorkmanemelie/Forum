@@ -7,7 +7,7 @@ import ThreadPage from "./pages/ThreadPage";
 import CreateThreadPage from "./pages/CreateThreadPage";
 import Navbar from "./components/Navbar";
 import "./App.css";
-//Function organiserar koden
+
 function App() {
   return (
     <ThreadProvider>
